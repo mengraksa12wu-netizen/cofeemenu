@@ -1,0 +1,64 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
+  color: #333;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+  background-color: #1c1c1c;
+}
+
+.navbar-brand, .nav-link {
+  color: #fff !important;
+}
+
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+  url('https://images.unsplash.com/photo-1509042239860-f550ce710b93') center/cover no-repeat;
+  height: 90vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+}
+
+.section-padding {
+  padding: 80px 0;
+  transition: transform 0.3s;
+}
+
+.menu-card {
+  border: none;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+
+.menu-card:hover {
+  transform: translateY(-5px);
+}
+
+.about-img {
+  border-radius: 12px;
+}
+
+footer {
+  background-color: #1c1c1c;
+  color: #bbb;
+  padding: 30px 0;
+}
+
+footer a {
+  color: #bbb;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #fff;
+}
